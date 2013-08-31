@@ -1,0 +1,19 @@
+{
+    "name": "emil/testing",
+    "description": "Functional Testing for the brave",
+    "authors": [{
+        "name": "Emil Kjelsrud",
+        "email": "emilkje@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "behat/behat": "2.4.*@stable",
+        "behat/mink": "1.4.*@dev",
+        "behat/mink-extension": "*",
+        "behat/mink-goutte-driver": "1.0.x-dev",
+        "behat/mink-selenium2-driver": "*"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
